@@ -1,6 +1,7 @@
-import Inform from './Inform';
+import Inform from './Inform.tsx';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Breadcrumbs, Card, Grid } from '@aws-amplify/ui-react';
+import React from 'react';
 
 
 const NavBar = () => {
